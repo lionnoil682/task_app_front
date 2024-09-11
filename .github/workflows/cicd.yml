@@ -33,4 +33,4 @@ jobs:
       - name: Delete existing container
         run: docker rm -f reactContainer
       - name: Run container
-        run: docker run -d -p 80:80 --name reactContainer
+        run: docker run -d -p 80:80 --name reactContainer lionnoil628/task-front-cicd
